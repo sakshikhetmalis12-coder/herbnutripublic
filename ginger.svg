@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradGinger" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e1" />
+      <stop offset="100%" stop-color="#ffecb3" />
+    </linearGradient>
+    <linearGradient id="gingerSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#deb887" />
+      <stop offset="100%" stop-color="#b2844b" />
+    </linearGradient>
+    <linearGradient id="gingerFlesh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9c4" />
+      <stop offset="100%" stop-color="#fff59d" />
+    </linearGradient>
+    <linearGradient id="teaCupGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#eceff1" />
+    </linearGradient>
+    <linearGradient id="teaLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe082" />
+      <stop offset="100%" stop-color="#ffb74d" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bgGradGinger)" />
+  <circle cx="200" cy="150" r="105" fill="#ffe082" opacity="0.35" />
+
+  <!-- Herbal Ginger Tea Cup on the Right -->
+  <ellipse cx="280" cy="245" rx="42" ry="10" fill="#e0e0e0" />
+  <!-- Saucer -->
+  <ellipse cx="280" cy="240" rx="46" ry="9" fill="#ffffff" stroke="#cfd8dc" stroke-width="2" />
+  <!-- Cup body -->
+  <path d="M250 185 L255 235 Q280 245 305 235 L310 185 Z" fill="url(#teaCupGrad)" stroke="#b0bec5" stroke-width="2" />
+  <!-- Cup Rim -->
+  <ellipse cx="280" cy="185" rx="30" ry="8" fill="#ffffff" stroke="#b0bec5" stroke-width="2" />
+  <!-- Herbal Tea liquid -->
+  <ellipse cx="280" cy="188" rx="27" ry="6.5" fill="url(#teaLiquid)" />
+  <!-- Floating Ginger slice / Lemon wedge -->
+  <circle cx="276" cy="188" r="4.5" fill="#fff59d" stroke="#fbc02d" stroke-width="1" />
+  <!-- Cup Handle -->
+  <path d="M310 195 Q330 205 310 225" stroke="#b0bec5" stroke-width="3" fill="none" stroke-linecap="round" />
+  <!-- Steam wisps -->
+  <path d="M275 170 Q270 155 277 142" stroke="#8d6e63" stroke-width="1.8" fill="none" opacity="0.5" stroke-linecap="round" />
+  <path d="M285 168 Q290 152 284 138" stroke="#8d6e63" stroke-width="1.8" fill="none" opacity="0.5" stroke-linecap="round" />
+
+  <!-- Knobby Ginger Rhizome -->
+  <!-- Main Rhizome Cluster -->
+  <path d="M90 220 C60 195 70 160 100 155 C120 150 135 160 145 150 C160 135 185 140 190 165 C195 185 180 205 165 215 C145 228 110 235 90 220 Z" fill="url(#gingerSkin)" stroke="#8d6e63" stroke-width="2" />
+  <!-- Knob Branch 1 -->
+  <path d="M125 155 C120 125 145 110 160 128 C165 140 150 155 140 155 Z" fill="url(#gingerSkin)" stroke="#8d6e63" stroke-width="1.8" />
+  <!-- Knob Branch 2 -->
+  <path d="M85 175 C60 160 70 130 90 145 C100 152 95 165 85 175 Z" fill="url(#gingerSkin)" stroke="#8d6e63" stroke-width="1.8" />
+  <!-- Small sprout bud on top -->
+  <path d="M150 115 Q152 100 157 95 Q160 102 158 115 Z" fill="#81c784" />
+
+  <!-- Cut Ginger Round Slices -->
+  <!-- Slice 1 -->
+  <ellipse cx="85" cy="235" rx="20" ry="14" fill="url(#gingerFlesh)" stroke="#b2844b" stroke-width="2.5" />
+  <ellipse cx="85" cy="235" rx="14" ry="9" fill="none" stroke="#ffe082" stroke-width="1.5" stroke-dasharray="2,2" />
+  <!-- Slice 2 -->
+  <ellipse cx="120" cy="245" rx="18" ry="12" fill="url(#gingerFlesh)" stroke="#b2844b" stroke-width="2.5" />
+  <ellipse cx="120" cy="245" rx="12" ry="7" fill="none" stroke="#ffe082" stroke-width="1.5" stroke-dasharray="2,2" />
+
+  <!-- Natural Wrinkle lines on Ginger -->
+  <path d="M105 175 Q115 188 110 200" stroke="#795548" stroke-width="1.8" fill="none" opacity="0.6" />
+  <path d="M135 170 Q145 185 140 205" stroke="#795548" stroke-width="1.8" fill="none" opacity="0.6" />
+  <path d="M160 180 Q168 195 162 210" stroke="#795548" stroke-width="1.8" fill="none" opacity="0.6" />
+
+  <!-- Botanical Badge -->
+  <rect x="20" y="20" width="130" height="28" rx="14" fill="#ffffff" opacity="0.95" />
+  <text x="32" y="39" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#8d4b14">🫚 Ginger (Adrak)</text>
+  <rect x="235" y="258" width="145" height="28" rx="14" fill="#ffffff" opacity="0.95" />
+  <text x="245" y="277" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a0522d">Zingiber officinale</text>
+</svg>

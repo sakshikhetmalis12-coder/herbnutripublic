@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradAloe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f8e9" />
+      <stop offset="100%" stop-color="#dcedc8" />
+    </linearGradient>
+    <linearGradient id="aloeLeafOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66bb6a" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+    <linearGradient id="aloeLeafCenter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#388e3c" />
+    </linearGradient>
+    <linearGradient id="potGradAloe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d7ccc8" />
+      <stop offset="100%" stop-color="#a1887f" />
+    </linearGradient>
+    <linearGradient id="gelDrop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7fa" />
+      <stop offset="100%" stop-color="#4dd0e1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bgGradAloe)" />
+  <circle cx="200" cy="150" r="100" fill="#c8e6c9" opacity="0.4" />
+
+  <!-- Modern Planter -->
+  <polygon points="150,225 160,280 240,280 250,225" fill="url(#potGradAloe)" stroke="#8d6e63" stroke-width="2" />
+  <ellipse cx="200" cy="225" rx="52" ry="12" fill="#6d4c41" />
+
+  <!-- Back succulent leaves -->
+  <path d="M190 225 C140 190 120 120 125 70 C140 100 165 170 190 225 Z" fill="#2e7d32" opacity="0.8" />
+  <path d="M210 225 C260 190 280 120 275 70 C260 100 235 170 210 225 Z" fill="#2e7d32" opacity="0.8" />
+
+  <!-- Side Spreading Thick Fleshy Leaves -->
+  <path d="M185 228 C120 210 90 160 80 120 C105 145 145 190 188 228 Z" fill="url(#aloeLeafOuter)" />
+  <path d="M215 228 C280 210 310 160 320 120 C295 145 255 190 212 228 Z" fill="url(#aloeLeafOuter)" />
+
+  <!-- Mid Serrated Leaves -->
+  <path d="M190 228 C155 180 150 110 160 55 C175 95 190 160 196 228 Z" fill="url(#aloeLeafCenter)" />
+  <path d="M210 228 C245 180 250 110 240 55 C225 95 210 160 204 228 Z" fill="url(#aloeLeafCenter)" />
+
+  <!-- Central Tall Spire Leaf -->
+  <path d="M195 228 C190 150 195 90 200 40 C205 90 210 150 205 228 Z" fill="#43a047" />
+
+  <!-- Serrated White Spines / Dots on aloe leaf edge -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="160" cy="65" r="1.5" /><circle cx="157" cy="85" r="1.5" /><circle cx="155" cy="110" r="1.5" /><circle cx="157" cy="135" r="1.8" />
+    <circle cx="240" cy="65" r="1.5" /><circle cx="243" cy="85" r="1.5" /><circle cx="245" cy="110" r="1.5" /><circle cx="243" cy="135" r="1.8" />
+    <circle cx="85" cy="130" r="1.5" /><circle cx="95" cy="150" r="1.5" /><circle cx="115" cy="175" r="1.5" />
+    <circle cx="315" cy="130" r="1.5" /><circle cx="305" cy="150" r="1.5" /><circle cx="285" cy="175" r="1.5" />
+  </g>
+
+  <!-- Soothing Gel Dewdrop Icon -->
+  <path d="M330 220 C330 205 342 190 342 190 C342 190 354 205 354 220 A12 12 0 1 1 330 220 Z" fill="url(#gelDrop)" stroke="#26c6da" stroke-width="1.5" />
+  <ellipse cx="338" cy="216" rx="2" ry="4" fill="#ffffff" opacity="0.8" />
+
+  <!-- Botanical Badge -->
+  <rect x="20" y="20" width="130" height="28" rx="14" fill="#ffffff" opacity="0.9" />
+  <text x="32" y="39" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#1b5e20">🌵 Aloe Vera</text>
+  <rect x="230" y="252" width="150" height="28" rx="14" fill="#ffffff" opacity="0.9" />
+  <text x="240" y="271" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#2e7d32">Aloe barbadensis</text>
+</svg>

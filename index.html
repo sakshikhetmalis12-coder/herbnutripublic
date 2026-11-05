@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HerbNutri - College Educational Project on Herbal and Nutrition Awareness. Discover the medicinal benefits of Tulsi, Aloe Vera, Turmeric, Ginger and scientific nutrition tips.">
+  <meta name="keywords" content="Herbal medicine, Tulsi, Aloe Vera, Turmeric, Ginger, Nutrition, Healthy diet, College Project, HerbNutri">
+  <meta name="author" content="HerbNutri Educational Project">
+  <title>HerbNutri - Herbal and Nutrition Awareness</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       1. Header & Navigation
+       ====================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <!-- Logo & Brand Title -->
+      <a href="#home" class="brand" aria-label="HerbNutri Homepage">
+        <div class="brand-icon">
+          <img src="images/logo.svg" alt="HerbNutri Logo" width="34" height="34">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Herb<span>Nutri</span></span>
+          <span class="brand-tagline">Herbal &amp; Nutrition Awareness</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#herbs" class="nav-link">Herbs</a></li>
+          <li><a href="#nutrition" class="nav-link">Nutrition</a></li>
+          <li><a href="#tips" class="nav-link">Healthy Tips</a></li>
+          <li><a href="#tools" class="nav-link">Health Tools</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Hamburger Menu -->
+      <div class="nav-cta">
+        <a href="#quiz" class="btn btn-primary btn-sm">Take Quiz 🎓</a>
+      </div>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       2. Hero Section
+       ====================================================================== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge-pill">🌿 College Academic Project • 100% Educational</span>
+        <h1 class="hero-headline">
+          Ancient Herbal Wisdom Meets <span>Modern Nutritional Science</span>.
+        </h1>
+        <p class="hero-lead">
+          Empowering students, families, and communities with evidence-based botanical knowledge, traditional Indian herbal remedies, and balanced dietary practices for lifelong wellness.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#herbs" class="btn btn-primary">
+            <span>Explore Healing Herbs</span>
+            <span>🌿</span>
+          </a>
+          <a href="#tools" class="btn btn-secondary">
+            <span>Calculate BMI &amp; Water</span>
+            <span>💧</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Core Healing Herbs</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Natural &amp; Science Backed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">Free</span>
+            <span class="stat-label">Health &amp; Diet Tools</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-visual">
+        <div class="hero-card-preview">
+          <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.8rem; margin-bottom: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="font-size: 1.4rem;">🍃</span>
+              <div>
+                <h4 style="font-size: 1rem; color: var(--primary-dark); font-weight: 750;">Nature's Pharmacy</h4>
+                <p style="font-size: 0.75rem; color: var(--text-muted);">Key Ayurvedic Healing Essentials</p>
+              </div>
+            </div>
+            <span class="badge-pill" style="margin-bottom: 0; font-size: 0.72rem; padding: 0.2rem 0.6rem;">Verified</span>
+          </div>
+
+          <div class="hero-quick-quads">
+            <div class="quick-quad-item">
+              <span class="quad-icon">🌱</span>
+              <div class="quad-info">
+                <h4>Tulsi</h4>
+                <p>Immunity &amp; Cough</p>
+              </div>
+            </div>
+            <div class="quick-quad-item">
+              <span class="quad-icon">🌵</span>
+              <div class="quad-info">
+                <h4>Aloe Vera</h4>
+                <p>Skin &amp; Digestion</p>
+              </div>
+            </div>
+            <div class="quick-quad-item">
+              <span class="quad-icon">✨</span>
+              <div class="quad-info">
+                <h4>Turmeric</h4>
+                <p>Anti-Inflammatory</p>
+              </div>
+            </div>
+            <div class="quick-quad-item">
+              <span class="quad-icon">🫚</span>
+              <div class="quad-info">
+                <h4>Ginger</h4>
+                <p>Gut &amp; Metabolism</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.2rem; background: var(--bg-mint); padding: 0.85rem; border-radius: var(--radius-sm); font-size: 0.82rem; color: var(--primary-dark); display: flex; align-items: center; gap: 0.6rem;">
+            <span>💡</span>
+            <span><strong>Did you know?</strong> Black pepper boosts Turmeric absorption by up to 2000%!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       3. Core Four Quick-Access Bar (Tulsi, Aloe Vera, Turmeric, Ginger)
+       ====================================================================== -->
+  <div class="core-four-strip">
+    <div class="container">
+      <div class="core-four-title">⭐ Featured Core Medicinal Herbs (Click any to view profile)</div>
+      <div class="core-four-grid" id="coreFourContainer">
+        <!-- Injected via JavaScript from HERBS_DATA -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       4. Herbs Showcase Section
+       ====================================================================== -->
+  <section id="herbs" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Botanical Compendium</span>
+        <h2 class="section-title">Sacred &amp; Everyday Healing Herbs</h2>
+        <p class="section-subtitle">
+          Explore botanical classifications, active phytochemicals, research-backed medicinal uses, and time-tested home remedies for everyday vitality.
+        </p>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="herbs-controls">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="herbSearchInput" 
+            class="search-input" 
+            placeholder="Search herbs by name (e.g. Tulsi, Ginger, Skin, Immunity)..."
+            aria-label="Search herbs"
+          >
+        </div>
+
+        <div class="filter-pills">
+          <button class="filter-btn active" data-category="all">All Herbs</button>
+          <button class="filter-btn" data-category="immunity">Immunity Boosters</button>
+          <button class="filter-btn" data-category="digestion">Digestive Health</button>
+          <button class="filter-btn" data-category="skin">Skin &amp; Hair Care</button>
+          <button class="filter-btn" data-category="vitality">Vitality &amp; Anti-Stress</button>
+        </div>
+      </div>
+
+      <!-- Herbs Grid Container -->
+      <div class="herbs-grid" id="herbsGrid">
+        <!-- Dynamic Cards rendered via main.js from HERBS_DATA -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       5. Nutrition & Balanced Diet Section
+       ====================================================================== -->
+  <section id="nutrition" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Nutritional Science</span>
+        <h2 class="section-title">The Foundation of Balanced Eating</h2>
+        <p class="section-subtitle">
+          Understanding macronutrients, essential micronutrients, and the internationally recognized "Plate Method" to nourish your body and sharpen cognitive performance.
+        </p>
+      </div>
+
+      <div class="nutrition-grid">
+        <!-- Interactive Healthy Plate SVG Diagram -->
+        <div class="plate-diagram-wrap">
+          <h3 style="font-size: 1.35rem; color: var(--primary-dark); font-weight: 800; margin-bottom: 0.5rem;">
+            The Healthy Eating Plate
+          </h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+            Global nutritionists recommend this visual breakdown for lunch and dinner plates.
+          </p>
+
+          <div class="plate-svg-box">
+            <img src="images/healthy-plate.svg" alt="Healthy Plate Proportions" width="400" height="400">
+          </div>
+
+          <div class="plate-legend">
+            <div class="legend-item">
+              <span class="legend-dot dot-green"></span>
+              <span><strong>50%</strong> Vegetables &amp; Fruits</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot dot-orange"></span>
+              <span><strong>25%</strong> Whole Grains</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot dot-purple"></span>
+              <span><strong>25%</strong> Healthy Proteins</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background-color: #00897b;"></span>
+              <span><strong>Hydrate:</strong> Water &amp; Herbal Teas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nutrition Pillar Cards -->
+        <div class="nutrition-topics-tabs">
+          <div class="topic-card">
+            <div class="topic-header">
+              <div class="topic-icon">⚡</div>
+              <div>
+                <h3>Macronutrients</h3>
+                <p>The Fuel &amp; Structural Architecture</p>
+              </div>
+            </div>
+            <div class="topic-points-list">
+              <div class="topic-point-item">
+                <strong>Complex Carbohydrates (45-55%):</strong> Whole oats, brown rice, millets, and sweet potatoes deliver steady mental stamina and sustained glucose release.
+              </div>
+              <div class="topic-point-item">
+                <strong>Lean Clean Proteins (15-25%):</strong> Dal, chickpeas, paneer, tofu, lentils, and eggs rebuild cellular structures and power immune antibodies.
+              </div>
+              <div class="topic-point-item">
+                <strong>Unsaturated Healthy Fats (20-30%):</strong> Walnuts, flaxseeds, and cold-pressed mustard/olive oils are essential for fat-soluble vitamins (A, D, E, K).
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-card">
+            <div class="topic-header">
+              <div class="topic-icon">🔬</div>
+              <div>
+                <h3>Micronutrients &amp; Superfoods</h3>
+                <p>Micro-Catalysts Driving Vital Health</p>
+              </div>
+            </div>
+            <div class="topic-points-list">
+              <div class="topic-point-item">
+                <strong>Vitamin C &amp; Zinc:</strong> Abundant in Amla, guavas, and pumpkin seeds to defend against seasonal viral infections and accelerate wound recovery.
+              </div>
+              <div class="topic-point-item">
+                <strong>Iron &amp; Vitamin B12:</strong> Keeps hemoglobin levels optimal to prevent student lethargy, brain fog, and fatigue.
+              </div>
+              <div class="topic-point-item">
+                <strong>Sprouted Moong &amp; Chana:</strong> Germination increases enzyme activity and vitamin bioavailability by up to 300%.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       6. Interactive Health Tools (BMI & Water Intake)
+       ====================================================================== -->
+  <section id="tools" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Interactive Health Tools</span>
+        <h2 class="section-title">Calculate Your Personal Metrics</h2>
+        <p class="section-subtitle">
+          Input your measurements below to calculate your Body Mass Index (BMI) and discover your recommended daily water hydration target.
+        </p>
+      </div>
+
+      <div class="tools-box">
+        <!-- Tabs Header -->
+        <div class="tools-nav">
+          <button class="tool-tab-btn active" data-tab="bmiCalcTab">
+            <span>⚖️ Body Mass Index (BMI)</span>
+          </button>
+          <button class="tool-tab-btn" data-tab="waterCalcTab">
+            <span>💧 Daily Water Calculator</span>
+          </button>
+        </div>
+
+        <!-- Tab 1: BMI Calculator -->
+        <div class="tool-content active" id="bmiCalcTab">
+          <div class="calc-grid">
+            <div class="calc-form">
+              <h3 style="font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 1.2rem; font-weight: 750;">
+                Enter Your Height &amp; Weight
+              </h3>
+              
+              <div class="form-group">
+                <label for="bmiWeight" class="form-label">Body Weight (in Kilograms - kg):</label>
+                <input type="number" id="bmiWeight" class="form-input" placeholder="e.g. 65" min="20" max="250" value="65">
+              </div>
+
+              <div class="form-group">
+                <label for="bmiHeight" class="form-label">Height (in Centimeters - cm):</label>
+                <input type="number" id="bmiHeight" class="form-input" placeholder="e.g. 170" min="80" max="240" value="170">
+              </div>
+
+              <button class="btn btn-primary" id="calcBmiBtn" style="width: 100%; margin-top: 0.5rem;">
+                Calculate My BMI
+              </button>
+            </div>
+
+            <!-- Result Box -->
+            <div class="calc-result-card">
+              <div class="result-metric-label">Your Calculated BMI</div>
+              <div class="result-metric-value" id="bmiScoreDisplay">22.5</div>
+              <div class="result-badge badge-normal" id="bmiStatusBadge">Normal / Healthy Weight</div>
+              <p class="result-advice-text" id="bmiAdviceText">
+                Great job! Maintain your balanced Plate Ratio (50% vegetables/fruits, 25% whole grains, 25% lean protein) and stay active with daily brisk walking.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Water Intake Calculator -->
+        <div class="tool-content" id="waterCalcTab">
+          <div class="calc-grid">
+            <div class="calc-form">
+              <h3 style="font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 1.2rem; font-weight: 750;">
+                Hydration Requirements
+              </h3>
+
+              <div class="form-group">
+                <label for="waterWeight" class="form-label">Your Body Weight (kg):</label>
+                <input type="number" id="waterWeight" class="form-input" placeholder="e.g. 60" min="20" max="250" value="60">
+              </div>
+
+              <div class="form-group">
+                <label for="activityLevel" class="form-label">Daily Physical Activity Level:</label>
+                <select id="activityLevel" class="form-select">
+                  <option value="0">Sedentary (College desk / studying)</option>
+                  <option value="350" selected>Moderate (30-45 mins walking/sports)</option>
+                  <option value="700">Intense (Heavy gym / athletics / manual work)</option>
+                </select>
+              </div>
+
+              <button class="btn btn-primary" id="calcWaterBtn" style="width: 100%; margin-top: 0.5rem;">
+                Calculate Daily Water Goal
+              </button>
+            </div>
+
+            <div class="calc-result-card">
+              <div class="result-metric-label">Daily Hydration Target</div>
+              <div class="result-metric-value" id="waterLitersDisplay" style="color: #00796b;">2.5 L</div>
+              <div class="result-badge badge-normal" id="waterGlassesDisplay">~10 Glasses (250ml each)</div>
+              <p class="result-advice-text" id="waterTipDisplay">
+                Pro Tip: Infuse your water bottle with fresh Mint leaves or cucumber slices for refreshing natural electrolytes and superior cellular hydration!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       7. Healthy Tips & Daily Habit Section
+       ====================================================================== -->
+  <section id="tips" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Practical Wellness</span>
+        <h2 class="section-title">Healthy Food &amp; Lifestyle Tips</h2>
+        <p class="section-subtitle">
+          Small, consistent daily habits yield monumental improvements in physical energy, immune strength, and academic focus.
+        </p>
+      </div>
+
+      <!-- Tip of the Day Generator Banner -->
+      <div class="daily-generator-widget">
+        <span class="badge-pill warning" style="color: #78350f;">🌟 Interactive Tip of the Day</span>
+        <p class="daily-tip-quote" id="dailyTipQuote">
+          "Start With Warm Copper or Lemon Water: Drink 500ml of room-temperature or lukewarm water right upon waking up. It stimulates peristalsis, clears overnight metabolic byproducts, and rehydrates your brain cells before tea or coffee."
+        </p>
+        <p style="font-size: 0.85rem; color: #d1fae5; margin-bottom: 1.5rem;" id="dailyTipCategory">
+          🌅 Category: Morning Routine — Hydration
+        </p>
+        <button class="btn btn-generate" id="generateTipBtn">
+          <span>Get Another Healthy Tip</span>
+          <span>🔄</span>
+        </button>
+      </div>
+
+      <!-- Categorized Tips Grid -->
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">🧘</div>
+            <div>
+              <span class="tip-cat-tag">Mindful Eating</span>
+              <h3 class="tip-title">The 32-Chew Principle</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            Chewing each bite thoroughly mixes food with salivary amylase enzymes, relieving your stomach of digestive stress and allowing satiety signals to reach your brain on time.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">🌈</div>
+            <div>
+              <span class="tip-cat-tag">Dietary Diversity</span>
+              <h3 class="tip-title">Eat the Color Rainbow</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            Vibrant natural colors equal potent phytochemicals: Red (Lycopene for cardiovascular health), Orange (Beta-carotene for eye vision), and Green (Chlorophyll for cellular detox).
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">🌙</div>
+            <div>
+              <span class="tip-cat-tag">Circadian Rhythm</span>
+              <h3 class="tip-title">Early 3-Hour Dinner Gap</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            Conclude your dinner at least 2.5 to 3 hours prior to sleep. Digesting food while horizontal causes silent acid reflux and impairs restorative REM sleep phases.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">🥣</div>
+            <div>
+              <span class="tip-cat-tag">Gut Microbiome</span>
+              <h3 class="tip-title">Daily Probiotic Buttermilk</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            A glass of fresh homemade buttermilk (chaas) with cumin and mint replenishes friendly gut flora that produce up to 90% of the body's mood-regulating serotonin.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">☕</div>
+            <div>
+              <span class="tip-cat-tag">Smart Herbal Teas</span>
+              <h3 class="tip-title">Herbal Sips Over Sugary Drinks</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            Replace energy drinks and sugary sodas with freshly brewed Tulsi-Ginger tea. It delivers smooth, clean alertness without the anxious caffeine spike and crash.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-top">
+            <div class="tip-icon-box">🥜</div>
+            <div>
+              <span class="tip-cat-tag">Brain Fuel</span>
+              <h3 class="tip-title">Soaked Almonds &amp; Walnuts</h3>
+            </div>
+          </div>
+          <p class="tip-body">
+            Soaking nuts overnight dissolves nutrient-blocking enzyme inhibitors, releasing brain-boosting Omega-3 fatty acids and Vitamin E for peak memory retention.
+          </p>
+        </div>
+      </div>
+
+      <!-- Do's and Don'ts Comparison Table -->
+      <div class="dos-donts-wrap">
+        <h3 class="table-title">Nutrition Do's vs. Don'ts Guide</h3>
+        <div class="dos-donts-grid">
+          <div class="dos-col">
+            <div class="col-header">
+              <span>✅ Healthy Nutritional Do's</span>
+            </div>
+            <ul class="compare-list">
+              <li class="compare-item">
+                <span>✔</span>
+                <span>Drink water at room temperature or lukewarm throughout the day.</span>
+              </li>
+              <li class="compare-item">
+                <span>✔</span>
+                <span>Incorporate fresh local seasonal fruits (guava, amla, papaya, apple).</span>
+              </li>
+              <li class="compare-item">
+                <span>✔</span>
+                <span>Pair Turmeric with black pepper and warm milk or healthy cooking oil.</span>
+              </li>
+              <li class="compare-item">
+                <span>✔</span>
+                <span>Choose whole unpolished grains (brown rice, whole wheat, millets).</span>
+              </li>
+              <li class="compare-item">
+                <span>✔</span>
+                <span>Savor each meal calmly without smartphone or TV screen distractions.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="donts-col">
+            <div class="col-header">
+              <span>❌ Unhealthy Dietary Don'ts</span>
+            </div>
+            <ul class="compare-list">
+              <li class="compare-item">
+                <span>✕</span>
+                <span>Do not drink chilled ice water immediately with heavy, oily meals.</span>
+              </li>
+              <li class="compare-item">
+                <span>✕</span>
+                <span>Avoid ultra-processed packaged snacks loaded with trans-fats and MSG.</span>
+              </li>
+              <li class="compare-item">
+                <span>✕</span>
+                <span>Do not consume the yellow bitter latex layer of raw Aloe Vera plants.</span>
+              </li>
+              <li class="compare-item">
+                <span>✕</span>
+                <span>Do not skip breakfast and binge on high-sugar pastries late at night.</span>
+              </li>
+              <li class="compare-item">
+                <span>✕</span>
+                <span>Avoid boiling pure honey at high temperatures (causes toxin formation).</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       8. Interactive Herbal & Nutrition Quiz
+       ====================================================================== -->
+  <section id="quiz" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Knowledge Check</span>
+        <h2 class="section-title">Test Your Herbal &amp; Nutrition IQ!</h2>
+        <p class="section-subtitle">
+          Challenge your understanding with this interactive 4-question quiz. Perfect for students and curious minds!
+        </p>
+      </div>
+
+      <div class="quiz-wrapper" id="quizCard">
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quizProgressFill"></div>
+        </div>
+        <div class="quiz-question-number" id="quizQuestionNum">Question 1 of 4</div>
+        <h3 class="quiz-question-text" id="quizQuestionText">Loading quiz questions...</h3>
+        <div class="quiz-options-list" id="quizOptionsList">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+        <div class="quiz-feedback-box" id="quizFeedbackBox"></div>
+        <div class="quiz-actions">
+          <button class="btn btn-primary btn-sm" id="quizNextBtn" disabled>Next Question</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       9. About Section (College Project)
+       ====================================================================== -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Academic Background</span>
+        <h2 class="section-title">About the HerbNutri Project</h2>
+        <p class="section-subtitle">
+          An educational initiative designed by students to cultivate public awareness regarding India's herbal heritage and contemporary nutrition science.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-info">
+          <p class="about-lead">
+            <strong>HerbNutri</strong> was conceived as a college project to bridge the gap between traditional botanical knowledge and modern evidence-based nutritional guidelines.
+          </p>
+
+          <div class="about-features-list">
+            <div class="about-feature-item">
+              <div class="about-feat-icon">🎯</div>
+              <div class="about-feat-text">
+                <h4>Core Objective</h4>
+                <p>Educating youth on the active biochemical components of everyday herbs like Tulsi, Aloe Vera, Turmeric, and Ginger to promote preventive healthcare.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="about-feat-icon">🧪</div>
+              <div class="about-feat-text">
+                <h4>Science-Backed Information</h4>
+                <p>Every herbal profile pairs traditional Ayurvedic wisdom with peer-reviewed modern pharmacological findings and safe dosage guidelines.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="about-feat-icon">💻</div>
+              <div class="about-feat-text">
+                <h4>Interactive Educational Web Tools</h4>
+                <p>Equipped with an intuitive BMI calculator, hydration estimator, and botanical quiz to foster active, engaging student learning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Spec Card -->
+        <div class="college-project-card">
+          <span class="project-ribbon">Academic Year 2026</span>
+          <div class="project-card-header">
+            <h3 class="project-card-title">HerbNutri College Project</h3>
+            <p class="project-card-sub">Department of Herbal Science &amp; Health Informatics</p>
+          </div>
+
+          <div class="project-specs-list">
+            <div class="spec-row">
+              <span class="spec-name">Project Title:</span>
+              <span class="spec-val">HerbNutri Awareness Portal</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">Technologies Used:</span>
+              <span class="spec-val">HTML5, CSS3, JavaScript (ES6)</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">Core Focus:</span>
+              <span class="spec-val">Herbal Remedies &amp; Nutrition</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">Design Aesthetic:</span>
+              <span class="spec-val">Herbal Green &amp; Pure White</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">Compatibility:</span>
+              <span class="spec-val">Desktop, Laptop, Tablet, Mobile</span>
+            </div>
+          </div>
+
+          <p class="academic-note">
+            ⚠️ <strong>Student Project Disclaimer:</strong> This portal is developed strictly for educational and academic evaluation purposes. It does not constitute formal medical diagnosis or professional clinical advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       10. Contact & FAQ Section
+       ====================================================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Reach Out &amp; Inquire</span>
+        <h2 class="section-title">Frequently Asked Questions &amp; Contact</h2>
+        <p class="section-subtitle">
+          Have queries about herbal preparation, student submissions, or nutritional tips? Reach out to our project team!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Interactive FAQ Accordion -->
+        <div>
+          <h3 style="font-size: 1.3rem; color: var(--primary-dark); font-weight: 800; margin-bottom: 1.25rem;">
+            Common Herbal &amp; Nutrition Queries
+          </h3>
+          <div class="faq-accordion" id="faqAccordion">
+            <!-- Populated via main.js from FAQS -->
+          </div>
+        </div>
+
+        <!-- Contact / Feedback Form -->
+        <div class="contact-form-card">
+          <h3 class="contact-form-title">Send Us Your Feedback</h3>
+          <p class="contact-form-sub">We welcome suggestions from professors, evaluators, and fellow students.</p>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="contactName" class="form-label">Full Name *</label>
+              <input type="text" id="contactName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address *</label>
+              <input type="email" id="contactEmail" class="form-input" placeholder="e.g. rahul@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactCategory" class="form-label">Inquiry Topic</label>
+              <select id="contactCategory" class="form-select">
+                <option value="herbs">Herbal Remedies Question</option>
+                <option value="nutrition">Diet &amp; Nutrition Advice</option>
+                <option value="feedback">College Project Evaluation Feedback</option>
+                <option value="other">General Inquiries</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contactQuery" class="form-label">Your Message or Feedback *</label>
+              <textarea id="contactQuery" class="form-input" placeholder="Write your question, suggestion, or review here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Submit Message</span>
+              <span>📩</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       11. Modal Dialog (Detailed Herb Profile & Remedies)
+       ====================================================================== -->
+  <div class="modal-overlay" id="herbModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      
+      <div class="modal-banner">
+        <img src="images/tulsi.svg" alt="Herb Banner" class="modal-banner-img" id="modalImg">
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-header-meta">
+          <h2 class="modal-herb-title" id="modalTitle">Tulsi (Holy Basil)</h2>
+          <p class="modal-herb-sci" id="modalSci">Ocimum sanctum • Family: Lamiaceae</p>
+        </div>
+
+        <p class="herb-desc" id="modalDesc" style="font-size: 1rem; margin-bottom: 1.5rem;">
+          Description goes here...
+        </p>
+
+        <h3 class="modal-section-title">
+          <span>🛡️</span> Key Health Benefits
+        </h3>
+        <div class="modal-benefits-list" id="modalBenefits">
+          <!-- Benefits pills -->
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+          <div style="background-color: var(--bg-subtle); padding: 1rem; border-radius: var(--radius-sm);">
+            <h4 style="font-size: 0.95rem; color: var(--primary-dark); font-weight: 750; margin-bottom: 0.3rem;">📜 Traditional Ayurvedic Wisdom</h4>
+            <p style="font-size: 0.85rem; color: var(--text-main);" id="modalTradition"></p>
+          </div>
+          <div style="background-color: var(--bg-subtle); padding: 1rem; border-radius: var(--radius-sm);">
+            <h4 style="font-size: 0.95rem; color: var(--primary-dark); font-weight: 750; margin-bottom: 0.3rem;">🔬 Modern Scientific Evidence</h4>
+            <p style="font-size: 0.85rem; color: var(--text-main);" id="modalScience"></p>
+          </div>
+        </div>
+
+        <!-- Recipe Card -->
+        <div class="modal-recipe-card">
+          <div class="modal-recipe-title">
+            <span>🍵 Recommended Home Preparation: </span>
+            <span id="modalRecipeTitle">Immunity Kadha</span>
+          </div>
+          <div class="recipe-sublabel">Ingredients Needed:</div>
+          <p class="recipe-text" id="modalIngredients"></p>
+          <div class="recipe-sublabel">Preparation Steps:</div>
+          <p class="recipe-text" id="modalSteps"></p>
+        </div>
+
+        <!-- Caution -->
+        <div class="modal-caution-box" id="modalCaution">
+          ⚠️ Dosage &amp; Safety Precautions
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">↑</button>
+
+  <!-- ======================================================================
+       12. Footer
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>🌿 HerbNutri</h3>
+        <p>
+          An educational college initiative aimed at promoting herbal literacy, medicinal plant conservation, and science-based nutritional lifestyle habits.
+        </p>
+        <div class="badge-pill" style="background-color: rgba(255, 255, 255, 0.15); color: #ffffff; border: none;">
+          🎓 College Project 2026
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Navigation</h4>
+        <ul class="footer-links-list">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#herbs" class="footer-link">Medicinal Herbs</a></li>
+          <li><a href="#nutrition" class="footer-link">Plate Nutrition</a></li>
+          <li><a href="#tips" class="footer-link">Healthy Food Tips</a></li>
+          <li><a href="#tools" class="footer-link">BMI &amp; Water Calculator</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Core Herbs Studied</h4>
+        <ul class="footer-links-list">
+          <li><a href="#herbs" class="footer-link">Tulsi (Holy Basil)</a></li>
+          <li><a href="#herbs" class="footer-link">Aloe Vera (Ghritkumari)</a></li>
+          <li><a href="#herbs" class="footer-link">Turmeric (Curcumin)</a></li>
+          <li><a href="#herbs" class="footer-link">Ginger (Adrak)</a></li>
+          <li><a href="#herbs" class="footer-link">Ashwagandha &amp; Amla</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Academic Disclaimer</h4>
+        <div class="disclaimer-card">
+          The content on HerbNutri is compiled for college project and educational awareness purposes only. Always consult registered medical physicians for clinical conditions.
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 HerbNutri Project. Built with HTML, CSS &amp; JavaScript for Academic Evaluation.</p>
+      <p>Clean Green &amp; White Theme • Designed for Laptop &amp; Mobile</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

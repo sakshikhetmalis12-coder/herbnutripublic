@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradTurm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffde7" />
+      <stop offset="100%" stop-color="#fff9c4" />
+    </linearGradient>
+    <linearGradient id="rhizomeSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d78d38" />
+      <stop offset="100%" stop-color="#8d4b14" />
+    </linearGradient>
+    <linearGradient id="rhizomeInside" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb300" />
+      <stop offset="100%" stop-color="#ff6f00" />
+    </linearGradient>
+    <linearGradient id="curcumaLeaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+    <linearGradient id="powderBowl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#cfd8dc" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bgGradTurm)" />
+  <circle cx="200" cy="150" r="105" fill="#fff59d" opacity="0.4" />
+
+  <!-- Background Turmeric Foliage -->
+  <path d="M110 180 C80 120 90 40 140 20 C145 70 140 130 110 180 Z" fill="url(#curcumaLeaf)" opacity="0.75" />
+  <path d="M125 180 C110 120 130 50 170 30 C165 80 155 130 125 180 Z" fill="url(#curcumaLeaf)" />
+
+  <!-- Turmeric Bowl (White Ceramic with bright golden powder) -->
+  <ellipse cx="270" cy="235" rx="50" ry="12" fill="#e0e0e0" />
+  <path d="M220 220 C220 250 320 250 320 220 Z" fill="url(#powderBowl)" stroke="#b0bec5" stroke-width="2" />
+  <ellipse cx="270" cy="218" rx="46" ry="14" fill="#ffa000" />
+  <!-- Golden Powder Mound -->
+  <path d="M230 218 Q270 175 310 218 Z" fill="url(#rhizomeInside)" />
+  <ellipse cx="270" cy="205" rx="20" ry="5" fill="#ffb300" opacity="0.8" />
+
+  <!-- Natural Turmeric Rhizome / Roots -->
+  <!-- Main Rhizome Body -->
+  <path d="M110 230 C90 220 80 200 100 180 C130 160 175 165 205 185 C220 195 210 225 185 235 C155 245 125 240 110 230 Z" fill="url(#rhizomeSkin)" stroke="#795548" stroke-width="2" />
+  
+  <!-- Finger Branches -->
+  <path d="M170 170 C185 140 215 140 220 165 C205 175 185 180 170 170 Z" fill="url(#rhizomeSkin)" stroke="#795548" stroke-width="1.8" />
+  <path d="M100 185 C75 170 65 190 75 210 C85 215 95 200 100 185 Z" fill="url(#rhizomeSkin)" stroke="#795548" stroke-width="1.8" />
+  <path d="M135 238 C140 260 165 265 175 245 Z" fill="url(#rhizomeSkin)" stroke="#795548" stroke-width="1.8" />
+
+  <!-- Sliced Cross Section showing vibrant golden-orange curcumin core -->
+  <ellipse cx="115" cy="190" rx="16" ry="18" fill="url(#rhizomeInside)" stroke="#8d4b14" stroke-width="2.5" />
+  <ellipse cx="115" cy="190" rx="12" ry="14" fill="#ff9100" />
+  <ellipse cx="115" cy="190" rx="6" ry="7" fill="#ffb74d" />
+  <circle cx="115" cy="190" r="2.5" fill="#fff9c4" />
+
+  <!-- Botanical Rings & Texture on root -->
+  <path d="M135 180 Q145 195 140 210" stroke="#6d4c41" stroke-width="2" fill="none" opacity="0.6" />
+  <path d="M165 190 Q175 205 170 220" stroke="#6d4c41" stroke-width="2" fill="none" opacity="0.6" />
+  <path d="M190 195 Q195 205 190 218" stroke="#6d4c41" stroke-width="2" fill="none" opacity="0.6" />
+
+  <!-- Botanical Badge -->
+  <rect x="20" y="20" width="130" height="28" rx="14" fill="#ffffff" opacity="0.95" />
+  <text x="32" y="39" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#e65100">✨ Turmeric (Haldi)</text>
+  <rect x="245" y="255" width="135" height="28" rx="14" fill="#ffffff" opacity="0.95" />
+  <text x="255" y="274" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#f57c00">Curcuma longa</text>
+</svg>

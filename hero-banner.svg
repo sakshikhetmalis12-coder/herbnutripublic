@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f8e9" />
+    </linearGradient>
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#1b5e20" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Big Decorative Soft Leaves in Background -->
+  <path d="M450 50 C550 100 580 250 480 350 C380 450 250 400 280 250 C310 100 350 0 450 50 Z" fill="#e8f5e9" opacity="0.7" />
+  <circle cx="150" cy="120" r="80" fill="#f1f8e9" opacity="0.6" />
+
+  <!-- Main Showcase Educational Card -->
+  <rect x="70" y="50" width="460" height="340" rx="28" fill="url(#heroCardGrad)" stroke="#c8e6c9" stroke-width="2" filter="url(#cardGlow)" />
+
+  <!-- Top Header bar in card -->
+  <rect x="70" y="50" width="460" height="55" rx="28" fill="#1b5e20" />
+  <rect x="70" y="80" width="460" height="25" fill="#1b5e20" />
+  <!-- Window dots -->
+  <circle cx="105" cy="78" r="6" fill="#e57373" />
+  <circle cx="125" cy="78" r="6" fill="#fff176" />
+  <circle cx="145" cy="78" r="6" fill="#81c784" />
+  <text x="300" y="83" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">🌿 HerbNutri Wellness Matrix</text>
+
+  <!-- Inner 4 Quadrants Showcase -->
+  <!-- Quadrant 1: Tulsi -->
+  <g transform="translate(100, 130)">
+    <rect width="180" height="100" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" />
+    <circle cx="35" cy="50" r="24" fill="#e8f5e9" />
+    <text x="35" y="56" font-size="20" text-anchor="middle">🍃</text>
+    <text x="70" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">Tulsi</text>
+    <text x="70" y="58" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#66bb6a">Immunity &amp; Prana</text>
+    <text x="70" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="bold" fill="#2e7d32">Active: Eugenol</text>
+  </g>
+
+  <!-- Quadrant 2: Turmeric -->
+  <g transform="translate(320, 130)">
+    <rect width="180" height="100" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" />
+    <circle cx="35" cy="50" r="24" fill="#fffde7" />
+    <text x="35" y="56" font-size="20" text-anchor="middle">✨</text>
+    <text x="70" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#e65100">Turmeric</text>
+    <text x="70" y="58" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#fbc02d">Anti-inflammatory</text>
+    <text x="70" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="bold" fill="#f57f17">Active: Curcumin</text>
+  </g>
+
+  <!-- Quadrant 3: Aloe Vera -->
+  <g transform="translate(100, 250)">
+    <rect width="180" height="100" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" />
+    <circle cx="35" cy="50" r="24" fill="#e0f2f1" />
+    <text x="35" y="56" font-size="20" text-anchor="middle">🌵</text>
+    <text x="70" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#00695c">Aloe Vera</text>
+    <text x="70" y="58" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#26a69a">Skin &amp; Digestion</text>
+    <text x="70" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="bold" fill="#00897b">Active: Acemannan</text>
+  </g>
+
+  <!-- Quadrant 4: Ginger -->
+  <g transform="translate(320, 250)">
+    <rect width="180" height="100" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" />
+    <circle cx="35" cy="50" r="24" fill="#fff8e1" />
+    <text x="35" y="56" font-size="20" text-anchor="middle">🫚</text>
+    <text x="70" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#8d4b14">Ginger</text>
+    <text x="70" y="58" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#ffa726">Gut &amp; Metabolism</text>
+    <text x="70" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="bold" fill="#b26a00">Active: Gingerol</text>
+  </g>
+
+  <!-- Floating Green Badge -->
+  <g transform="translate(30, 310)">
+    <rect width="130" height="50" rx="25" fill="#2e7d32" filter="url(#cardGlow)" />
+    <text x="65" y="26" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a5d6a7" text-anchor="middle">COLLEGE PROJECT</text>
+    <text x="65" y="40" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">100% Educational</text>
+  </g>
+</svg>
